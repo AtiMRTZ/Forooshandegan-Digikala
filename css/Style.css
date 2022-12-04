@@ -33,19 +33,31 @@ body {
 .seller__box {
   padding: 3.5rem 2rem; }
 
+.seller__heading::after {
+  content: "";
+  width: 5%;
+  height: 0.2rem;
+  background-color: #ef4056;
+  position: absolute; }
+
+.card__title {
+  margin-top: 4rem;
+  font-weight: 100;
+  letter-spacing: 0.2rem; }
+
 .heading-3, .heading-4, .heading-5 {
   font-family: "Yekan";
   font-weight: 400; }
 
 .heading-3 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #000; }
 
 .heading-4 {
-  font-size: 1.3rem; }
+  font-size: 1.5rem; }
 
 .heading-5 {
-  font-size: 1.1rem; }
+  font-size: 1.3rem; }
 
 .btn {
   font-size: 1.5rem;
@@ -57,6 +69,9 @@ body {
   padding: 1.8rem 3rem;
   cursor: pointer;
   transition: all 1s; }
+
+.mb-xs {
+  margin-bottom: 1.3rem; }
 
 .mb-sm {
   margin-bottom: 2rem; }

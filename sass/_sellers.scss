@@ -1,10 +1,35 @@
 .seller {
   &__box {
     padding: 3.5rem 2rem;
-
-&::after{
-    content: "";
+  }
+  &__heading {
+    &::after {
+      content: "";
+      width: 5%;
+      height: 0.2rem;
+      background-color: $color-button-primary;
+      position: absolute;
+    }
+  }
 }
 
+.card {
+  &__title {
+    margin-top: 4rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__description {
+  }
+
+  &__service {
   }
 }

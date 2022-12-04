@@ -5,18 +5,18 @@
 
 .heading-3 {
   @extend %heading;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: $color-black;
 }
 
 .heading-4 {
   @extend %heading;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .heading-5 {
   @extend %heading;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .btn {
@@ -29,6 +29,10 @@
   padding: 1.8rem 3rem;
   cursor: pointer;
   transition: all 1s;
+}
+
+.mb-xs {
+  margin-bottom: 1.3rem;
 }
 
 .mb-sm {
