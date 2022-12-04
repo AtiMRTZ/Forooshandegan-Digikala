@@ -1,0 +1,18 @@
+{
+  "name": "forooshandegan-digikala",
+  "version": "1.0.0",
+  "description": "A section for sellers' names",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "keywords": [
+    "digikala"
+  ],
+  "author": "Atiyeh Mortazavi",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
