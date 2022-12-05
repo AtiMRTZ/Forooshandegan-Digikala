@@ -43,7 +43,17 @@ body {
 .card__title {
   margin-top: 4rem;
   font-weight: 100;
-  letter-spacing: 0.2rem; }
+  letter-spacing: 0.1rem; }
+
+.card__details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+
+.card__price {
+  display: flex;
+  align-items: center; }
 
 .heading-3, .heading-4, .heading-5 {
   font-family: "Yekan";
@@ -65,10 +75,11 @@ body {
   background-color: #ef4056;
   color: #fff;
   border: none;
-  border-radius: 0.2rem;
-  padding: 1.8rem 3rem;
+  border-radius: 1rem;
+  padding: 1.2rem 2rem;
   cursor: pointer;
-  transition: all 1s; }
+  transition: all 1s;
+  margin-right: 2.3rem; }
 
 .mb-xs {
   margin-bottom: 1.3rem; }
