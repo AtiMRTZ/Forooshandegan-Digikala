@@ -93,10 +93,32 @@ body {
   margin: -1.5rem 3.5rem 0 0;
   letter-spacing: 0.1rem; }
   .satisfaction__main {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #81858b; }
     .satisfaction__main--sub {
-      color: darkgreen !important; }
+      color: #26b149 !important;
+      letter-spacing: -0.09rem;
+      font-size: 1.6rem !important; }
+
+.cardservice {
+  margin: 1.5rem 3.5rem 0 0;
+  background-image: linear-gradient(270deg, rgba(215, 168, 204, 0.09) 5%, rgba(255, 255, 255, 0));
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.7rem;
+  display: flex;
+  align-items: center; }
+  .cardservice__icon {
+    color: #b314b3;
+    font-size: 1.5rem;
+    margin: 0.3rem; }
+  .cardservice__main {
+    color: #b314b3;
+    font-size: 1.3rem;
+    margin: 0.4rem; }
+  .cardservice__sub {
+    font-size: 1.1rem;
+    margin: 0.6rem;
+    color: #857e7e; }
 
 .heading-3, .heading-4, .heading-5 {
   font-family: "Yekan";

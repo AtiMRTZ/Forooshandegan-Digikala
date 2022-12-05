@@ -90,11 +90,44 @@
   letter-spacing: 0.1rem;
 
   &__main {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: $color-grey-light;
 
     &--sub {
-      color: darkgreen !important;
+      color: rgb(38, 177, 73) !important;
+      letter-spacing: -0.09rem;
+      font-size: 1.6rem !important;
     }
+  }
+}
+
+.cardservice {
+  margin: 1.5rem 3.5rem 0 0;
+  background-image: linear-gradient(
+    270deg,
+    rgba(215, 168, 204, 0.09) 5%,
+    hsla(0, 0%, 100%, 0)
+  );
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.7rem;
+  display: flex;
+  align-items: center;
+
+  &__icon {
+    color: rgb(179, 20, 179);
+    font-size: 1.5rem;
+    margin: 0.3rem;
+  }
+
+  &__main {
+    color: rgb(179, 20, 179);
+    font-size: 1.3rem;
+    margin: 0.4rem;
+  }
+
+  &__sub {
+    font-size: 1.1rem;
+    margin: 0.6rem;
+    color: $color-black-light;
   }
 }
