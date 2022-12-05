@@ -14,13 +14,31 @@
   }
 }
 
-.card {
-  margin: 0 2rem;
+.card-bg0 {
+  align-items: center;
   border-radius: 0.6rem;
-  padding: 1.2rem 1.5rem;
+  padding: 0.1rem 1.5rem 0.2rem 1.3rem;
+  margin-left: 0.18rem;
+  margin-top: 4rem;
+}
+
+.card-bg1 {
+  background-color: $color-grey-bg;
+  align-items: center;
+  border-radius: 0.6rem;
+  padding: 0.1rem 1.5rem 0.2rem 1.3rem;
+}
+
+.card-bg2 {
+  align-items: center;
+  border-radius: 0.6rem;
+  padding: 0.1rem 1.5rem 0.2rem 1.3rem;
+}
+
+.card {
 
   &__title {
-    margin: 4rem 3.5rem -2rem 0;
+    margin: 0.6rem 3.5rem -2rem 0;
     font-weight: 100;
     letter-spacing: 0.1rem;
   }
