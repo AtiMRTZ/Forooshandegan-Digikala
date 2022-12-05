@@ -16,6 +16,8 @@
 
 .card {
   margin: 0 2rem;
+  border-radius: 0.6rem;
+  padding: 1.2rem 1.5rem;
 
   &__title {
     margin: 4rem 3.5rem -2rem 0;
@@ -93,8 +95,14 @@
     font-size: 1.2rem;
     color: $color-grey-light;
 
-    &--sub {
+    &--perfect{
       color: rgb(38, 177, 73) !important;
+      letter-spacing: -0.09rem;
+      font-size: 1.6rem !important;
+    }
+
+    &--good {
+      color: #b1b64d !important;
       letter-spacing: -0.09rem;
       font-size: 1.6rem !important;
     }
@@ -125,7 +133,7 @@
     margin: 0.4rem;
   }
 
-  &__sub {
+  &__sub, {
     font-size: 1.1rem;
     margin: 0.6rem;
     color: $color-black-light;
