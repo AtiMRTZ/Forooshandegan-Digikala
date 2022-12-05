@@ -56,10 +56,16 @@ body {
 .card-bg2 {
   align-items: center;
   border-radius: 0.6rem;
-  padding: 0.1rem 1.5rem 0.2rem 1.3rem; }
+  padding: 0.1rem 1rem 0.2rem 1.3rem;
+  margin-bottom: 1rem; }
 
 .card__title {
   margin: 0.6rem 3.5rem -2rem 0;
+  font-weight: 100;
+  letter-spacing: 0.1rem; }
+
+.card__title1 {
+  margin: 0.6rem 2rem 0 0;
   font-weight: 100;
   letter-spacing: 0.1rem; }
 
@@ -145,6 +151,12 @@ body {
     margin: 0.6rem;
     color: #857e7e; }
 
+.seemore {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-right: 1rem; }
+
 .heading-3, .heading-4, .heading-5 {
   font-family: "Yekan";
   font-weight: 400; }
@@ -172,3 +184,7 @@ body {
 
 .mb-xs {
   margin-bottom: 1.3rem; }
+
+.flex {
+  display: flex;
+  align-items: center; }
