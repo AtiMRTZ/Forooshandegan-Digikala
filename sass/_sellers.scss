@@ -27,6 +27,28 @@
     justify-content: space-between;
   }
 
+  &__send {
+    font-size: 1.5rem;
+    font-weight: lighter !important;
+    color: $color-black-lighter;
+
+    &--icon {
+      color: $color-button-primary;
+      margin: 1rem;
+    }
+  }
+
+
+  &__guarantee{
+    color: $color-black-light;
+    font-weight: lighter !important;
+    
+    &--icon {
+      color: $color-black !important;
+      margin: 0.9rem;
+    }
+  }
+
   &__price {
     display: flex;
     align-items: center;
