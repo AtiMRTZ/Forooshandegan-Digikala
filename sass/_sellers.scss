@@ -37,7 +37,6 @@
 }
 
 .card {
-
   &__title {
     margin: 0.6rem 3.5rem -2rem 0;
     font-weight: 100;
@@ -56,8 +55,9 @@
   }
 
   &__details {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: [first] 12rem [line2] 22rem [line3] 23rem [col4-start] 37rem [end];
+    grid-template-rows: auto;
     align-items: center;
     justify-content: space-between;
   }
@@ -83,10 +83,20 @@
     }
   }
 
-  &__price {
-    display: flex;
-    align-items: center;
+  &__price1 {
+    display: grid;
+    grid-template-areas: "div div button";
+    grid-template-columns: 19rem 16rem 1rem;
+  }
 
+  &__price2 {
+    display: grid;
+    grid-template-areas: "div div button";
+    grid-template-columns: 19rem 16rem 1rem;
+  }
+
+  &__price1,
+  &__price2 {
     &--main {
       font-weight: bold !important;
       font-size: 2rem;
@@ -120,7 +130,7 @@
     font-size: 1.2rem;
     color: $color-grey-light;
 
-    &--perfect{
+    &--perfect {
       color: rgb(38, 177, 73) !important;
       letter-spacing: -0.09rem;
       font-size: 1.6rem !important;
@@ -158,7 +168,7 @@
     margin: 0.4rem;
   }
 
-  &__sub, {
+  &__sub {
     font-size: 1.1rem;
     margin: 0.6rem;
     color: $color-black-light;
