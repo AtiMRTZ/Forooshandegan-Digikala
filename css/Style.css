@@ -54,6 +54,24 @@ body {
 .card__price {
   display: flex;
   align-items: center; }
+  .card__price--main {
+    font-weight: bold !important;
+    font-size: 2rem;
+    margin: 0.3rem; }
+  .card__price--sub {
+    text-decoration: line-through !important;
+    color: #c1c1ca;
+    font-size: 1rem;
+    font-weight: bold !important; }
+
+.off {
+  background-color: #ef4056;
+  padding: 0.09rem 0.6rem;
+  border-radius: 4rem;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-right: 0.5rem; }
 
 .heading-3, .heading-4, .heading-5 {
   font-family: "Yekan";
